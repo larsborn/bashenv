@@ -1,0 +1,20 @@
+[alias]
+	ci = commit
+	co = checkout
+	br = branch
+	st = status -s
+	cl = clone
+	diff = diff --word-diff
+	dc = diff --cached
+	graph = "log --graph --all --pretty=format:'%Cred%h%Creset - %Cgreen(%cr)%Creset %s%C(yellow)%d%Creset' --abbrev-commit --date=relative"
+[user]
+	email = lars@wallenborn.net
+	name = larsborn
+[color]
+	ui = true
+[core]
+	editor = vim
+[push]
+	default = "current"
+[branch]
+	autosetuprebase = always
