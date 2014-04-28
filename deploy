@@ -1,0 +1,12 @@
+#!/bin/bash
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+echo "Detected repository dir: $DIR"
+
+HOMEDIR_FILES=$DIR/home/*
+for f in $HOMEDIR_FILES
+do
+	filename=$(basename "$f")
+	echo "Creating symlink to $filename"
+	ln -fs $f ~/.$filename
+done
+
