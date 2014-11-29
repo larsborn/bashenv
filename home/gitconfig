@@ -9,7 +9,7 @@
 	graph = "log --graph --all --pretty=format:'%Cred%h%Creset - %Cgreen(%cr)%Creset %s%C(yellow)%d%Creset' --abbrev-commit --date=relative"
 [user]
 	email = lars@wallenborn.net
-	name = larsborn
+	name = Lars Wallenborn
 [color]
 	ui = true
 [core]
